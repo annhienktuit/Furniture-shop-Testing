@@ -21,17 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8000/')
 
-WebUI.click(findTestObject('Object Repository/Page_React App/svg'))
+WebUI.click(findTestObject('Object Repository/Page_React App/a_Products'))
 
-WebUI.setText(findTestObject('Object Repository/Page_React App/input_Username_username'), 'emanhsang')
+WebUI.click(findTestObject('Object Repository/Page_React App/div_Add To Cart'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_React App/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
-
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
-
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
+WebUI.click(findTestObject('Object Repository/Page_React App/span_Filter by Price_MuiSlider-thumbColorPr_391606'))
 
 WebUI.closeBrowser()
 
