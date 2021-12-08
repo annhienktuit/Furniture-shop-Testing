@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ProductListTestCase</name>
+   <name>FilterTest</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1543276d-be11-422e-aefa-b9fad6dff37a</testCaseGuid>
+   <testCaseGuid>3c7278df-aa61-47d2-bc8c-048f310c3c2c</testCaseGuid>
 </TestCaseEntity>

@@ -17,21 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('SuccessLoginTestCase'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8000/')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_React App/svg'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Products'))
 
-WebUI.setText(findTestObject('Object Repository/Page_React App/input_Username_username'), 'emanhsang')
+WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Add To Cart'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_React App/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
-
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
-
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_View Cart'))
 
 WebUI.closeBrowser()
 

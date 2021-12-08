@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8000/')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_React App/a_Products'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Products'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/div_Add To Cart'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_2'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/span_Filter by Price_MuiSlider-thumbColorPr_391606'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_3'))
 
 WebUI.closeBrowser()
 
