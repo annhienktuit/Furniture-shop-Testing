@@ -19,17 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8000/')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_React App/svg'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/svg'))
 
-WebUI.setText(findTestObject('Object Repository/Page_React App/input_Username_username'), 'admin.binh')
+WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_React App/input_Password_password'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
+    '391WRAcRvROQWKPTiPGB5Q==')
 
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Log In'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/div_AuthenticMade with loveNulla quis lorem_8c8e6c'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/div_SuccessDismiss'))
 
 WebUI.closeBrowser()
 
