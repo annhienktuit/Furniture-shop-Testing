@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SuccessLoginTestCase</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0d72f5d6-2c84-4d75-9965-31e264651ec9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MoreThan32DigitsUserName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d8e47e1-a6eb-4486-b217-a5be315f5d6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MoreThan32DigitsPassword</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

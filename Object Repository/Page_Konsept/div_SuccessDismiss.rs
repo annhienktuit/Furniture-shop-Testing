@@ -6,12 +6,12 @@
    <elementGuidId>99154651-c609-438c-a4e8-13586783d1b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.SnackbarContent-root.SnackbarItem-contentRoot.SnackbarItem-variantSuccess.SnackbarItem-lessPadding.css-hped4j</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.SnackbarContent-root.SnackbarItem-contentRoot.SnackbarItem-variantSuccess.SnackbarItem-lessPadding.css-hped4j</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

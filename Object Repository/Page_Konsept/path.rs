@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>714c050e-dee0-49a6-98aa-bde339f13584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M29.488 16.051v-1.768a3.536 3.536 0 00-3.535-3.536h-7.071a3.536 3.536 0 00-3.535 3.536v1.768</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/header[@class=&quot;header font-poppins&quot;]/div[@class=&quot;header--innner konsept-container flex justify-between items-center&quot;]/div[@class=&quot;header__widgets-holder ml-3&quot;]/div[@class=&quot;header__widget h-full&quot;]/div[@class=&quot;header__widget-content&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk&quot;]/svg[1]/g[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

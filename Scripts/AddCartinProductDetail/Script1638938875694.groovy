@@ -17,17 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SuccessLoginTestCase'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/login')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Products'))
+WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559 (1)'), 'annhienkt')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Add To Cart'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b (1)'), 
+    '391WRAcRvROQWKPTiPGB5Q==')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/button_View Cart'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Log In (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Products (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Add To Cart (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/span_Add to cart (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Desk Decor - admin'))
 
 WebUI.closeBrowser()
 

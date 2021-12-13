@@ -6,12 +6,12 @@
    <elementGuidId>8a1ecbd8-7fca-4cbf-bf20-888f778a46bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -110,15 +110,15 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <value>//li[3]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//li[3]/button</value>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,3 +1,94 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b",
+      "brokenLocator": "//input[@value\u003d\u0027d\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/form/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/span_Add to cart",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/section/div[2]/div[2]/form/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027bedroom\u0027])[1]/preceding::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/span_Add to cart_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/span_",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/section/div[2]/div[2]/form/div/div/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Aloe\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/button_View Cart",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/button_View Cart_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/input_YOUR CART_PrivateSwitchBase-input css_015900",
+      "brokenLocator": "//input[@type\u003d\u0027checkbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/input_YOUR CART_PrivateSwitchBase-input css_015900_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/p_Total 1210.00",
+      "brokenLocator": "//p[@id\u003d\u0027tableTitle\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Product\u0027])[1]/preceding::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/p_Total 1210.00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559",
+      "brokenLocator": "//input[@value\u003d\u0027\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/form/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b (1)",
+      "brokenLocator": "//input[@value\u003d\u0027N\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/form/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b (1)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/span_Add to cart (1)",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/section/div[2]/div[2]/form/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027bedroom\u0027])[1]/preceding::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/span_Add to cart (1)_neighbor.png"
+    }
+  ]
 }

@@ -6,12 +6,12 @@
    <elementGuidId>01748e1d-7714-43a4-bf7c-6307d1bc9fe7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/header/div/nav/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/header[@class=&quot;header py-4 font-poppins&quot;]/div[@class=&quot;header--innner konsept-container flex justify-between items-center&quot;]/nav[@class=&quot;header__nav mr-auto hidden lg:block&quot;]/ul[@class=&quot;flex items-center&quot;]/li[2]/a[@class=&quot;konsept-link&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/header[@class=&quot;header font-poppins&quot;]/div[@class=&quot;header--innner konsept-container flex justify-between items-center&quot;]/nav[@class=&quot;header__nav mr-auto hidden lg:block&quot;]/ul[@class=&quot;flex items-center&quot;]/li[2]/a[@class=&quot;konsept-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
