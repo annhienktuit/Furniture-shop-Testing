@@ -23,7 +23,9 @@ WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Products'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Search_standard-basic'), '')
+WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Search_standard-basic'), '  comfy chair  ')
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/h5_Comfy Chair'))
 
 WebUI.closeBrowser()
 

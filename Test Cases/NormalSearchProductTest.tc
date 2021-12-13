@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SearchProductTest</name>
+   <name>NormalSearchProductTest</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>47d4b595-0848-4f08-b517-dd69f40423a3</testCaseGuid>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Products</name>
+   <name>h5_Comfy Chair</name>
    <tag></tag>
-   <elementGuidId>01748e1d-7714-43a4-bf7c-6307d1bc9fe7</elementGuidId>
+   <elementGuidId>7bb7b0b8-aae3-4250-a087-cf823d538864</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>h5.product__info-title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/header/div/nav/ul/li[2]/a</value>
+         <value>//div[@id='root']/div/div/main/div[2]/div[2]/div/div/div[2]/div/h5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>konsept-link</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/products</value>
+      <value>product__info-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Products</value>
+      <value>Comfy Chair</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/header[@class=&quot;header font-poppins&quot;]/div[@class=&quot;header--innner konsept-container flex justify-between items-center&quot;]/nav[@class=&quot;header__nav mr-auto hidden lg:block&quot;]/ul[@class=&quot;flex items-center&quot;]/li[2]/a[@class=&quot;konsept-link&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/div[@class=&quot;main-content&quot;]/main[@class=&quot;products konsept-container&quot;]/div[@class=&quot;products__list&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-isbt42&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 css-1oec6uh&quot;]/div[@class=&quot;product&quot;]/div[@class=&quot;product__content&quot;]/div[@class=&quot;product__info&quot;]/h5[@class=&quot;product__info-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/header/div/nav/ul/li[2]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Products')]</value>
+      <value>//div[@id='root']/div/div/main/div[2]/div[2]/div/div/div[2]/div/h5</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read more'])[1]/following::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1–1 of 1 results'])[1]/following::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login/Register'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bedroom'])[1]/preceding::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/products')]</value>
+      <value>//*/text()[normalize-space(.)='Comfy Chair']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
+      <value>//div/div[2]/div/h5</value>
    </webElementXpaths>
 </WebElementEntity>
