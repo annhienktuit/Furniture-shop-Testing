@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/login')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/products/61af4d9f61d3cd3d0f2a48e5')
 
-WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559 (1)'), 'annhienkt')
+WebUI.click(findTestObject('Object Repository/Page_Konsept/span_Add to cart'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b (1)'), 
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_View Cart'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
     '391WRAcRvROQWKPTiPGB5Q==')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Log In (1)'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/a_Products (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/span_2'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Add To Cart (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Cactus'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/span_Add to cart (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Konsept/button_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Desk Decor - admin'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/h1_Cactus'))
 
 WebUI.closeBrowser()
 

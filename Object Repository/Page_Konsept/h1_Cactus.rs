@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Add to cart</name>
+   <name>h1_Cactus</name>
    <tag></tag>
-   <elementGuidId>a8b6343c-4402-42e5-a153-2f5ae55d7d1d</elementGuidId>
+   <elementGuidId>6a20b15e-29ec-4232-8bdc-84244b238da7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.MuiLoadingButton-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedBlack.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.css-19a4pka > span</value>
+         <value>h1.product-detail__title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/section/div[2]/div[2]/form/div/button/span</value>
+         <value>//div[@id='root']/div/div/section/div[2]/div[2]/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-detail__title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to cart</value>
+      <value>Cactus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;konsept-container&quot;]/div[@class=&quot;product-detail&quot;]/div[@class=&quot;product-detail__info&quot;]/form[1]/div[@class=&quot;add-to-cart&quot;]/button[@class=&quot;MuiLoadingButton-root MuiButton-root MuiButton-outlined MuiButton-outlinedBlack MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root css-19a4pka&quot;]/span[1]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;konsept-container&quot;]/div[@class=&quot;product-detail&quot;]/div[@class=&quot;product-detail__info&quot;]/h1[@class=&quot;product-detail__title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/section/div[2]/div[2]/form/div/button/span</value>
+      <value>//div[@id='root']/div/div/section/div[2]/div[2]/h1</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login/Register'])[1]/following::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='‒'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/following::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories:'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‒'])[1]/preceding::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plants'])[1]/preceding::span[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Add to cart']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Cactus']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/button/span</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='bedroom'])[1]/preceding::span[5]</value>
+      <value>//h1</value>
    </webElementXpaths>
 </WebElementEntity>

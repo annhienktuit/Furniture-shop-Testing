@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='j']</value>
+         <value>//input[@value='N']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>j</value>
+      <value>N</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='j']</value>
+      <value>//input[@value='N']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +84,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
+      <value>//input[@value='j']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//input[@value='a']</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -92,13 +99,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='n']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@value='N']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
