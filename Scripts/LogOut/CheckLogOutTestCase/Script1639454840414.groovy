@@ -17,27 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/SuccessLoginTestCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/products/61af4d9f61d3cd3d0f2a48e5')
+WebUI.click(findTestObject('Object Repository/Page_Konsept/svg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/span_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Logout'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/button_View Cart'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/svg'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
-    '391WRAcRvROQWKPTiPGB5Q==')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_Konsept/span_2'))
-
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Cactus'))
-
-WebUI.click(findTestObject('Object Repository/Page_Konsept/h1_Cactus'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/div_You must log in first'))
 
 WebUI.closeBrowser()
 

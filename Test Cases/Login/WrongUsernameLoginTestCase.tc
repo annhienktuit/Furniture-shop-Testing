@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AddCartinProductDetail</name>
+   <name>WrongUsernameLoginTestCase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3daf2ca3-9a21-4ecc-b4a0-16c075c73e8f</testCaseGuid>
+   <testCaseGuid>3a984752-b28f-4e68-b09b-24ec6cf991b1</testCaseGuid>
 </TestCaseEntity>

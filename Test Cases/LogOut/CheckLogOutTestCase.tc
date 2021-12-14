@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>FailLoginTestCase</name>
+   <name>CheckLogOutTestCase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3a984752-b28f-4e68-b09b-24ec6cf991b1</testCaseGuid>
+   <testCaseGuid>6e6bebfa-9248-4afb-8d0c-9d785cabf2b5</testCaseGuid>
 </TestCaseEntity>

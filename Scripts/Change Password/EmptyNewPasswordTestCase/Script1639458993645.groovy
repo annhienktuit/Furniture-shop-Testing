@@ -19,31 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/login')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/svg'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt1')
+WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhiendemo')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
-    'i2uGrCRVTyohb/80z+VEWw==')
+    '391WRAcRvROQWKPTiPGB5Q==')
 
 WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Wrong Password'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_LoginRegister'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt')
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Change password'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_BonjourTo connect to your account, ente_9ce2cb'))
+WebUI.setEncryptedText(findTestObject('Page_Konsept/Page_Konsept/input_Old password_MuiOutlinedInput-input MuiInputBase-input css-1x5jdmq'), 
+    '391WRAcRvROQWKPTiPGB5Q==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
-    '1bcVxoLj6OkpwW/EyTEqYg==')
+WebUI.setEncryptedText(findTestObject('Page_Konsept/input_Confirm new password_MuiOutlinedInput-input MuiInputBase-input css-1x5jdmq'), 
+    'oF9NbSRI3pz4funWaYFSWg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Log In'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Update Password'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_Wrong User Name'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/p_New password must be at least 4 characters'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Dismiss'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/p_Confirm new password does not match new password'))
 
 WebUI.closeBrowser()
 

@@ -89,6 +89,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/span_Add to cart (1)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b",
+      "brokenLocator": "//input[@value\u003d\u0027N\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Konsept/input_Confirm new password_MuiOutlinedInput-input MuiInputBase-input css-1x5jdmq",
+      "brokenLocator": "(//input[@value\u003d\u0027\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027vertical-tabpanel-3\u0027]/div/form/div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Konsept/input_Confirm new password_MuiOutlinedInput-input MuiInputBase-input css-1x5jdmq_idRelative.png"
     }
   ]
 }

@@ -19,18 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/')
+WebUI.navigateToUrl('https://ie-104-flower-shop-fe-konsept-store.vercel.app/login')
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/svg'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt1')
+WebUI.setText(findTestObject('Object Repository/Page_Konsept/input_Username_MuiOutlinedInput-input MuiIn_c5d559'), 'annhienkt')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
     '391WRAcRvROQWKPTiPGB5Q==')
 
 WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Konsept/div_SuccessDismiss'))
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_LoginRegister'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Change password'))
+
+WebUI.setEncryptedText(findTestObject('Page_Konsept/Page_Konsept/input_Old password_MuiOutlinedInput-input MuiInputBase-input css-1x5jdmq'), 
+    '391WRAcRvRM97kXDuT/hgg==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Konsept/input_Password_MuiOutlinedInput-input MuiIn_ae054b'), 
+    '391WRAcRvRPP9Xi5ObCXtQ==')
+
+WebUI.setEncryptedText(findTestObject('Page_Konsept/input_Confirm new password_MuiOutlinedInput-input MuiInputBase-input css-1x5jdmq'), 
+    'oF9NbSRI3pz4funWaYFSWg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/button_Update Password'))
+
+WebUI.click(findTestObject('Object Repository/Page_Konsept/p_Old password is not correct'))
 
 WebUI.closeBrowser()
 
