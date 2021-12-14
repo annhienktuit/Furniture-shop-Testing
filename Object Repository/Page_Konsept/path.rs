@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>path</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -28,13 +28,13 @@
       <matchCondition>equals</matchCondition>
       <name>d</name>
       <type>Main</type>
-      <value>M29.488 16.051v-1.768a3.536 3.536 0 00-3.535-3.536h-7.071a3.536 3.536 0 00-3.535 3.536v1.768</value>
+      <value>M328.2 249.48c.32.71 1 .68 2-.15a2.58 2.58 0 0 0 1.2-2.21c-.16-1.09-1.26-.11-2.45.49s-3 1.23-3.34-1.17.9-4.64 3-6.36c1.89-1.55 3.38-1.72 4.2-.12l-2 2.44c-.35-.64-.95-.66-1.87.1a2.27 2.27 0 0 0-1.06 2c.15 1 1.06.37 2.4-.37s3-1.33 3.4 1.12-.81 4.61-3.07 6.47c-1.61 1.33-3.53 2.23-4.43.2ZM337.34 243.81l-.28 2.34-2.34 1.93 1.86-14.29 2.53-2.09 5.29 8.41-2.38 2-.84-1.43Zm1.74-6.76c-.43-.7-.75-1.24-.77-1.24s-.11.9-.26 2.08l-.32 2.81 2.39-2ZM343.6 228l2.22-1.83 1.34 8.82 4.15-3.42.38 2.53-6.37 5.25ZM351.13 221.8l6.74-5.56.38 2.53-4.52 3.73.29 1.95 3.34-2.75.34 2.27-3.33 2.75.31 2.07 4.59-3.78.38 2.53-6.81 5.61ZM332.49 223.8c1.47-.64 2.89-.23 3.24 2.1.41 2.72-.8 6.43-4.37 9.37l-6.16 5.08-2.66-17.59 6.19-5.1c2.58-2.12 4.69-1.46 5 1a7.51 7.51 0 0 1-1.31 5.06Zm-3.37 1.36a3.4 3.4 0 0 0 1.3-3c-.15-1-.86-1.25-1.84-.44l-2.07 1.71.52 3.47Zm1.41 6.87a3.88 3.88 0 0 0 1.52-3.51c-.19-1.26-1-1.44-2.13-.51l-2.42 2 .61 4ZM335.49 212.09l3.44-2.83 2.66 17.58-3.45 2.84ZM354.74 216c-.15-1-.15-1.12-.17-1.24a14.93 14.93 0 0 1-3.79 4.91c-4 3.29-7.94 2.38-8.76-3.09a17.6 17.6 0 0 1 5.98-15.22c3.26-2.69 6.09-2.54 7.44-.43l-3.23 3.93c-.72-.67-1.95-.9-3.78.6a9.27 9.27 0 0 0-3 8.32c.47 3.11 2.44 3.78 5 1.69a10.74 10.74 0 0 0 3.37-4.82l-.12-.83-3.61 3-.59-3.92 6.8-5.61 1.54 10.2Z</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/header[@class=&quot;header font-poppins&quot;]/div[@class=&quot;header--innner konsept-container flex justify-between items-center&quot;]/div[@class=&quot;header__widgets-holder ml-3&quot;]/div[@class=&quot;header__widget h-full&quot;]/div[@class=&quot;header__widget-content&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk&quot;]/svg[1]/g[1]/path[1]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-layout&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;flex flex-col items-center justify-center py-24 lg:py-12 md:px-16 px-4&quot;]/div[@class=&quot;hidden md:grid place-content-center lg:w-1/3 w-1/2&quot;]/svg[1]/path[203]</value>
    </webElementProperties>
 </WebElementEntity>
