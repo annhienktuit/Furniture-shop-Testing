@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Open Cart Page
+2. select a product checkbox</description>
+   <name>SelectProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94ee38e1-e921-4531-897f-beba48bfa5ed</testCaseGuid>
+</TestCaseEntity>

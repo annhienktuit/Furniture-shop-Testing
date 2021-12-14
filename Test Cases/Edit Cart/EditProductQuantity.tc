@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Open Cart Page
+2. Select add quantity button
+3. Select subtract quantity button</description>
+   <name>EditProductQuantity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc8066c6-11aa-418d-afe8-50cdec02c388</testCaseGuid>
+</TestCaseEntity>
